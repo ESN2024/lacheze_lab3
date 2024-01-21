@@ -1,0 +1,153 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate C:\Users\oksta\OneDrive\Documents\5A\ESN12\lab3\lacheze_lab3_qsys.qsys --block-symbol-file --output-directory=C:\Users\oksta\OneDrive\Documents\5A\ESN12\lab3\lacheze_lab3_qsys --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading lab3/lacheze_lab3_qsys.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding opencores_i2c_0 [opencores_i2c 9.1]
+Progress: Parameterizing module opencores_i2c_0
+Progress: Adding pio0_7seg [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio0_7seg
+Progress: Adding pio1_7seg [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio1_7seg
+Progress: Adding pio2_7seg [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio2_7seg
+Progress: Adding pio3_7seg [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio3_7seg
+Progress: Adding pio4_7seg [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio4_7seg
+Progress: Adding pio5_7seg [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio5_7seg
+Progress: Adding piobp [altera_avalon_pio 18.1]
+Progress: Parameterizing module piobp
+Progress: Adding timer_0 [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: lacheze_lab3_qsys.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: lacheze_lab3_qsys.piobp: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\oksta\OneDrive\Documents\5A\ESN12\lab3\lacheze_lab3_qsys.qsys --synthesis=VHDL --output-directory=C:\Users\oksta\OneDrive\Documents\5A\ESN12\lab3\lacheze_lab3_qsys\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading lab3/lacheze_lab3_qsys.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding opencores_i2c_0 [opencores_i2c 9.1]
+Progress: Parameterizing module opencores_i2c_0
+Progress: Adding pio0_7seg [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio0_7seg
+Progress: Adding pio1_7seg [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio1_7seg
+Progress: Adding pio2_7seg [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio2_7seg
+Progress: Adding pio3_7seg [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio3_7seg
+Progress: Adding pio4_7seg [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio4_7seg
+Progress: Adding pio5_7seg [altera_avalon_pio 18.1]
+Progress: Parameterizing module pio5_7seg
+Progress: Adding piobp [altera_avalon_pio 18.1]
+Progress: Parameterizing module piobp
+Progress: Adding timer_0 [altera_avalon_timer 18.1]
+Progress: Parameterizing module timer_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: lacheze_lab3_qsys.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: lacheze_lab3_qsys.piobp: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: lacheze_lab3_qsys: Generating lacheze_lab3_qsys "lacheze_lab3_qsys" for QUARTUS_SYNTH
+Info: jtag_uart_0: Starting RTL generation for module 'lacheze_lab3_qsys_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=lacheze_lab3_qsys_jtag_uart_0 --dir=C:/Users/oksta/AppData/Local/Temp/alt9743_1687259184429680716.dir/0002_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/oksta/AppData/Local/Temp/alt9743_1687259184429680716.dir/0002_jtag_uart_0_gen//lacheze_lab3_qsys_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'lacheze_lab3_qsys_jtag_uart_0'
+Info: jtag_uart_0: "lacheze_lab3_qsys" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: nios2_gen2_0: "lacheze_lab3_qsys" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'lacheze_lab3_qsys_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=lacheze_lab3_qsys_onchip_memory2_0 --dir=C:/Users/oksta/AppData/Local/Temp/alt9743_1687259184429680716.dir/0003_onchip_memory2_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/oksta/AppData/Local/Temp/alt9743_1687259184429680716.dir/0003_onchip_memory2_0_gen//lacheze_lab3_qsys_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'lacheze_lab3_qsys_onchip_memory2_0'
+Info: onchip_memory2_0: "lacheze_lab3_qsys" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: opencores_i2c_0: "lacheze_lab3_qsys" instantiated opencores_i2c "opencores_i2c_0"
+Info: pio0_7seg: Starting RTL generation for module 'lacheze_lab3_qsys_pio0_7seg'
+Info: pio0_7seg:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=lacheze_lab3_qsys_pio0_7seg --dir=C:/Users/oksta/AppData/Local/Temp/alt9743_1687259184429680716.dir/0005_pio0_7seg_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/oksta/AppData/Local/Temp/alt9743_1687259184429680716.dir/0005_pio0_7seg_gen//lacheze_lab3_qsys_pio0_7seg_component_configuration.pl  --do_build_sim=0  ]
+Info: pio0_7seg: Done RTL generation for module 'lacheze_lab3_qsys_pio0_7seg'
+Info: pio0_7seg: "lacheze_lab3_qsys" instantiated altera_avalon_pio "pio0_7seg"
+Info: piobp: Starting RTL generation for module 'lacheze_lab3_qsys_piobp'
+Info: piobp:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=lacheze_lab3_qsys_piobp --dir=C:/Users/oksta/AppData/Local/Temp/alt9743_1687259184429680716.dir/0006_piobp_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/oksta/AppData/Local/Temp/alt9743_1687259184429680716.dir/0006_piobp_gen//lacheze_lab3_qsys_piobp_component_configuration.pl  --do_build_sim=0  ]
+Info: piobp: Done RTL generation for module 'lacheze_lab3_qsys_piobp'
+Info: piobp: "lacheze_lab3_qsys" instantiated altera_avalon_pio "piobp"
+Info: timer_0: Starting RTL generation for module 'lacheze_lab3_qsys_timer_0'
+Info: timer_0:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=lacheze_lab3_qsys_timer_0 --dir=C:/Users/oksta/AppData/Local/Temp/alt9743_1687259184429680716.dir/0007_timer_0_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/oksta/AppData/Local/Temp/alt9743_1687259184429680716.dir/0007_timer_0_gen//lacheze_lab3_qsys_timer_0_component_configuration.pl  --do_build_sim=0  ]
+Info: timer_0: Done RTL generation for module 'lacheze_lab3_qsys_timer_0'
+Info: timer_0: "lacheze_lab3_qsys" instantiated altera_avalon_timer "timer_0"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_010: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_011: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "lacheze_lab3_qsys" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "lacheze_lab3_qsys" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "lacheze_lab3_qsys" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'lacheze_lab3_qsys_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=lacheze_lab3_qsys_nios2_gen2_0_cpu --dir=C:/Users/oksta/AppData/Local/Temp/alt9743_1687259184429680716.dir/0010_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/oksta/AppData/Local/Temp/alt9743_1687259184429680716.dir/0010_cpu_gen//lacheze_lab3_qsys_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2024.01.21 20:05:23 (*) Starting Nios II generation
+Info: cpu: # 2024.01.21 20:05:23 (*)   Checking for plaintext license.
+Info: cpu: # 2024.01.21 20:05:24 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
+Info: cpu: # 2024.01.21 20:05:24 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2024.01.21 20:05:24 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2024.01.21 20:05:24 (*)   Plaintext license not found.
+Info: cpu: # 2024.01.21 20:05:24 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2024.01.21 20:05:24 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2024.01.21 20:05:24 (*)   Creating all objects for CPU
+Info: cpu: # 2024.01.21 20:05:25 (*)   Generating RTL from CPU objects
+Info: cpu: # 2024.01.21 20:05:25 (*)   Creating plain-text RTL
+Info: cpu: # 2024.01.21 20:05:25 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'lacheze_lab3_qsys_nios2_gen2_0_cpu'
+Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
+Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
+Info: jtag_uart_0_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_0_avalon_jtag_slave_translator"
+Info: nios2_gen2_0_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "nios2_gen2_0_data_master_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_0_avalon_jtag_slave_agent"
+Info: jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_0_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_002: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_002"
+Info: Reusing file C:/Users/oksta/OneDrive/Documents/5A/ESN12/lab3/lacheze_lab3_qsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/Users/oksta/OneDrive/Documents/5A/ESN12/lab3/lacheze_lab3_qsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file C:/Users/oksta/OneDrive/Documents/5A/ESN12/lab3/lacheze_lab3_qsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: lacheze_lab3_qsys: Done "lacheze_lab3_qsys" with 30 modules, 49 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
