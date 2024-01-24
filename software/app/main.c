@@ -72,19 +72,12 @@ __int8_t acc_read(alt_u32 add)
 //fonction de decomposition des valeurs en segment pour l'affichage
 void segment()
 {
-	//alt_printf("%x", data[cpt]);
 	data[cpt] = abs(data[cpt]);
-	//alt_printf("  %x \n", data[cpt]);
 	seg4 = data[cpt] / 10000;
-	//alt_printf("   %x", seg4);
 	seg3 = (data[cpt] % 10000) / 1000;
-	//alt_printf("   %x", seg3);
 	seg2 = (data[cpt] % 1000) / 100;
-	//alt_printf("   %x", seg2);
 	seg1 = (data[cpt] % 100) / 10;
-	//alt_printf("   %x", seg1);
 	seg0 = data[cpt] % 10;
-	//alt_printf("   %x\n\r", seg0);
 }
 
 //interruption du timer qui affiche les valeurs toutes les secondes
