@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>21 janv. 2024 21:52:22</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1705870342504</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>24 janv. 2024 11:46:48</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1706093208173</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>.\</BspGeneratedLocation>
         <BspSettingsFile>..\bsp\settings.bsp</BspSettingsFile>
         <SopcDesignFile>..\..\lacheze_lab3_qsys.sopcinfo</SopcDesignFile>
